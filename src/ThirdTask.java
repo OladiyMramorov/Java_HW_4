@@ -4,7 +4,7 @@ import java.util.Stack;
 public class ThirdTask {
     public static void Calculator() {
         System.Logger logger = System.getLogger("ThirdTask");
-        logger.log(System.Logger.Level.INFO, "Calculator starts");
+        logger.log(System.Logger.Level.INFO, "Calculator start");
         Scanner scanner = new Scanner(System.in);
 
         double currentResult = 0.0;
